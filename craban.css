@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: #0d0d0d;
+    color: white;
+  }
+  .container {
+    width: 400px;
+    margin: 40px auto;
+  }
+  h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .subtext {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: white;
+  }
+  input:focus, select:focus {
+    outline: none;
+    border: 1px solid orange;
+  }
+  .template-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .details {
+    color: orange;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .template-card {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .template-img {
+    width: 60px;
+    height: 40px;
+    background: #222;
+    border-radius: 4px;
+  }
+  .footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer button {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }

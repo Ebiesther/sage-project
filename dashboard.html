@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="sma.png">
+        </div>
+
+        <div class="head2">
+            <input type="search" placeholder="Search task...">
+            <img src="/images/bell.png">
+            <img src="profile">
+        </div>
+    </header>
+
+    <div class="body">
+
+    <div class="side">
+        <nav>
+            <img src="/images/analysis.png"><a href="project.html"> Spaces</a>
+           <img src="/images/kanban b.png"> <a href="board.html"> Boards</a>
+            <img src="/images/team.jpg"><a href="teams.html"> Teams</a>
+        </nav>
+        <div class="logout">
+           <a href="log.html"> <h3>Logout</h3> </a>
+        </div>
+    </div>
+
+    <div class="whole">
+        <h1 id="welcomeText">Welcome to SmartTask!</h1>
+        <p>Let's get you started. Create your first board to add and<br> organize youur tasks.</p>
+        <button><a href="craban.html"> + Create Space</a></button>
+
+        <p class="para">Ready to boost your team's productivity? Click the buttom <br> above to create a board and start adding tasks!</p>
+    </div>
+</div>
+<script>
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+  
+    if (isLoggedIn !== "true") {
+      alert("You must log in first");
+      window.location.href = "log.html";
+    }
+  </script>
+</body>
+</html>

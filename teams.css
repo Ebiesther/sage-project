@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head img{
+    width: 120px;
+    margin: 8px;
+}
+.head{
+    background-color: #0a192f;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.whole a{
+    text-decoration: none;
+}
+.head2{
+    background-color: #2ecc71;
+    width: 1000px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+   padding-right: 25px;
+}
+.head2 input{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(214, 239, 245);
+}
+.head2 img{
+    width: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.side{
+    background-color: white;
+    width: 230px;
+    display: flex;
+    align-content: center;
+    margin-top: 1px;
+    padding-left: 35px;
+    padding-top: 30px;
+    justify-content: start;
+    height: 92.5vh;
+    border-right: 1px solid;
+}
+nav a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.side a{
+    text-decoration: none;
+    color: #2ecc71;
+}
+.side a:hover{
+    color: #0a192f;
+}
+.side img{
+    width: 20px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.whole{
+    width: 1000px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 92.5vh;
+    padding: 20px;
+}
+.whole h1{
+    color: #0a192f;
+}
+.whole button{
+    background-color: #2ecc71;
+    color: #0a192f;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.whole button:hover{
+    background-color: #0a192f;
+    color: #2ecc71;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.kanban{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kanban h2{
+    color: #0a192f;
+}
+.kanban input{
+    width: 400px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #0a192f;
+}

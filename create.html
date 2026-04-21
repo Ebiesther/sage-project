@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="create.css">
+    <script src="create.js"></script>
+</head>
+<body>
+    <div class="body">
+    
+    <header>
+        <h1> Create Epic</h1>
+    </header>
+
+    <div class="main">
+        <p>Required fields are marke with an asterisk *</p>
+
+        <div class="option">
+        <h2>Space *</h2>
+        <select value="">
+            <option></option>
+        </select>
+        <h2>Work type*</h2>
+        <select value="Status">
+            <option value="Epic">Epic</option>
+            <option value="Task">Task</option>
+            <option value="Sub-task">Sub-task</option>
+        </select>
+        <h2>Summary</h2>
+        <input id="summary" type="text" placeholder="Give a brief summary...">
+        <h2>Parent</h2>
+        <select value="Status">
+            <option value="Epic"></option>
+            <option value="Task"></option>
+            <option value="Sub-task"></option>
+        </select>
+        <h2>Start date</h2>
+        <input type="date">
+        <h2>Due date</h2>
+        <input type="date">
+
+        <h2>Status</h2>
+        <select id="status">
+            <option value="Todo">To do</option>
+            <option value="Inprogress">In progress</option>
+            <option value="Review">Review</option>
+            <option value="Done">Done</option>
+        </select>
+
+        <h2>Priority</h2>
+        <select value="Status">
+            <option value="Epic">High</option>
+            <option value="Task">Medium</option>
+            <option value="Sub-task">Low</option>
+        </select>
+
+        <h2>Team</h2>
+        <input type="">
+    </div>
+    <button id="createBtn">Create Task</button>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css">
+    <script defer src="board.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="sma.png">
+        </div>
+
+        <div class="head2">
+            <input type="search" placeholder="Search task...">
+            <img src="/images/bell.png">
+            <img src="profile">
+        </div>
+    </header>
+
+    <div class="body">
+
+    <div class="side">
+        <nav>
+            <img src="/images/kanban b.png"> <a href="board.html"> Boards</a>
+
+        </nav>
+    </div>
+
+    <div class="whole">
+        
+        <div class="features">
+            <div class="kanban" id="todo">
+                <h2>To Do</h2>
+                <div class="task-list" id="todoList"> </div>
+            </div>
+            
+            <div class="kanban" id="progress">
+                <h2>In Progress</h2>
+                <div class="task-list" id="progressList"></div>
+            </div>
+            
+            <div class="kanban" id="review">
+                <h2>Review</h2>
+                <div class="task-list" id="reviewList"></div>
+            </div>
+            
+            <div class="kanban" id="done">
+                <h2>Done</h2>
+                <div class="task-list" id="doneList"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
