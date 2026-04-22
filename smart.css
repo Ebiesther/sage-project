@@ -21,6 +21,9 @@
     display: flex;
     gap: 25px;
 }
+.menu {
+    display: none;
+  }
 .nav a{
     text-decoration: none;
     color: white;
@@ -30,6 +33,10 @@
     color: white;
     border: none;
 }
+.scroll-text {
+    font-size: 16px;
+    text-align: center;
+  }
 .start{
     background: #2ecc71;
     color: white;
@@ -331,15 +338,6 @@
     font-size: 30px;
     color: white;
 }
-marquee {
-    width: 100%;
-    animation: scroll-left 15s linear infinite;
-  }
-  
-  @keyframes scroll-left {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }
 .teamimg{
     display: flex;
     flex-direction: row;
@@ -376,3 +374,94 @@ footer{
 footer p{
     color: #0a192f;
 }
+
+@media (max-width: 320px){
+.nav {
+      display: none;
+    }
+.btn {
+      display: none;
+    }
+    .head {
+      justify-content: space-between;
+      padding: 10px 15px;
+    }
+    .menu {
+      display: block;
+      font-size: 25px;
+      color: white;
+    }
+    .section2 {
+      padding: 30px 15px;
+    }
+    h1 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    .para {
+      font-size: 14px;
+    }
+    .input {
+      flex-direction: column;
+      width: 100%;
+    }
+    .input input {
+      width: 100%;
+    }
+    .input button {
+      width: 100%;
+    }
+    .credit {
+      flex-direction: column;
+      gap: 5px;
+      text-align: center;
+    }
+    .section3 {
+      padding: 20px;
+    }
+    .logo {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .logo img {
+      width: 80px;
+    }
+    .section3 h4 {
+      font-size: 20px;
+      text-align: center;
+    }
+    .section4 {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      width: 100%;
+    
+    .values {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .values button {
+      width: 100%;
+    }
+    .why{
+      height: auto;
+      padding: 20px;
+    }
+    .why p {
+      font-size: 16px;
+      text-align: center;
+    }
+    .down {
+      padding: 20px;
+    }
+    .down .input {
+      flex-direction: column;
+      width: 100%;
+    }
+    footer{
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+}}
