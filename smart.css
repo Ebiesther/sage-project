@@ -458,7 +458,7 @@ footer p{
         padding: 5px;
         padding-left: 22px;
         padding-right: 18px;
-        width: 375px;
+        width: 100%;
       }
       .menu {
         display: block;
@@ -584,7 +584,7 @@ footer p{
         padding: 5px;
         padding-left: 22px;
         padding-right: 18px;
-        width: 425px;
+        width: 100%;
       }
       .menu {
         display: block;
