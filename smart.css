@@ -443,3 +443,254 @@ footer p{
       font-size: 10px;
      }
     }
+
+    
+@media (max-width: 375px){
+  .nav {
+        display: none;
+      }
+  .btn {
+        display: none;
+      }
+      .head {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        padding-left: 22px;
+        padding-right: 18px;
+        width: 375px;
+      }
+      .menu {
+        display: block;
+        font-size: 25px;
+        color: white;
+      }
+      .section2 {
+        display: flex;
+        padding: 15px 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1px;
+      }
+     
+      .button {
+        margin: 5px;
+        height: auto;
+        background: transparent;
+        padding-top: 55px;
+        border: none;
+        cursor: pointer;
+        color: white;
+      }
+     
+       .button:hover {
+        cursor: crosshair;
+       }
+       h1{
+        font-size: 25px;
+        margin-top: 10px;
+       }
+       .para{
+        font-size: 12px;
+        margin-top: 10px;
+       }
+       .input{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+       }
+       .input input{
+        width: 300px;
+       }
+       .tick{
+        width: 12px;
+        margin-right: -7px;
+       }
+       .credit p{
+        font-size: 11px;
+       }
+      .section3 h5{
+        font-size: 20px;
+        margin-top: 15px;
+       }
+       .logo img{
+        width: 100px;
+       }
+       .logo{
+        display: flex;
+        flex-direction: column;
+       }
+       .section3 h4{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+       }
+       .section3 h6{
+        font-size: 15px;
+        margin-top: 10px;
+       }
+       .section4{
+        display: flex;
+        flex-direction: column;
+       }
+       .section5 h2{
+        font-size: 30px;
+        padding: 10px;
+       }
+       .section5 p{
+        font-size: 18px;
+        padding: 10px;
+        color: #2ecc71;
+       }
+       .values{
+        display: flex;
+        flex-direction: column;
+       }
+       .why{
+        height: 10vh;
+        background-color: #0a192f;
+       }
+       .why p{
+        font-size: 15px;
+       }
+       .section5 h4{
+        text-align: center;
+       }
+       .down{
+        text-align: center;
+       }
+       footer img{
+        width: 80px;
+       }
+       footer p{
+        font-size: 10px;
+       }
+      }
+
+
+      
+@media (max-width: 425px){
+  .nav {
+        display: none;
+      }
+  .btn {
+        display: none;
+      }
+      .head {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        padding-left: 22px;
+        padding-right: 18px;
+        width: 425px;
+      }
+      .menu {
+        display: block;
+        font-size: 25px;
+        color: white;
+      }
+      .section2 {
+        display: flex;
+        padding: 15px 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1px;
+      }
+     
+      .button {
+        margin: 5px;
+        height: auto;
+        background: transparent;
+        padding-top: 55px;
+        border: none;
+        cursor: pointer;
+        color: white;
+      }
+     
+       .button:hover {
+        cursor: crosshair;
+       }
+       h1{
+        font-size: 25px;
+        margin-top: 10px;
+       }
+       .para{
+        font-size: 12px;
+        margin-top: 10px;
+       }
+       .input{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+       }
+       .input input{
+        width: 300px;
+       }
+       .tick{
+        width: 12px;
+        margin-right: -7px;
+       }
+       .credit p{
+        font-size: 11px;
+       }
+      .section3 h5{
+        font-size: 20px;
+        margin-top: 15px;
+       }
+       .logo img{
+        width: 100px;
+       }
+       .logo{
+        display: flex;
+        flex-direction: column;
+       }
+       .section3 h4{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+       }
+       .section3 h6{
+        font-size: 15px;
+        margin-top: 10px;
+       }
+       .section4{
+        display: flex;
+        flex-direction: column;
+       }
+       .section5 h2{
+        font-size: 30px;
+        padding: 10px;
+       }
+       .section5 p{
+        font-size: 18px;
+        padding: 10px;
+        color: #2ecc71;
+       }
+       .values{
+        display: flex;
+        flex-direction: column;
+       }
+       .why{
+        height: 10vh;
+        background-color: #0a192f;
+       }
+       .why p{
+        font-size: 15px;
+       }
+       .section5 h4{
+        text-align: center;
+       }
+       .down{
+        text-align: center;
+       }
+       footer img{
+        width: 80px;
+       }
+       footer p{
+        font-size: 10px;
+       }
+      }
