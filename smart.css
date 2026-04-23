@@ -103,66 +103,11 @@
     padding: 0;
     border: none;
     cursor: pointer;
+    color: white;
   }
-  
-
- .button {
-    position: relative;
-    height: 50px;
-    padding: 0 30px;
-    border: 2px solid white;
-    background: #0a192f;
-    user-select: none;
-    white-space: nowrap;
-    transition: all .05s linear;
-    color: #2ecc71;
-  
-   }
-   
- .button:before, .button:after {
-    content: "";
-    position: absolute;
-    background: #0a192f;
-    transition: all .2s linear;
-   }
-   
-   .button:before {
-    width: calc(100% + 6px);
-    height: calc(100% - 16px);
-    top: 8px;
-    left: -3px;
-   }
-   
-   .button:after {
-    width: calc(100% - 16px);
-    height: calc(100% + 6px);
-    top: -3px;
-    left: 8px;
-   }
-   
+ 
    .button:hover {
     cursor: crosshair;
-   }
-   
-   .button:active {
-    transform: scale(0.95);
-   }
-   
-   .button:hover:before {
-    height: calc(100% - 32px);
-    top: 16px;
-   }
-   
-   .button:hover:after {
-    width: calc(100% - 32px);
-    left: 16px;
-   }
-   
-   .button span {
-    font-size: 15px;
-    z-index: 3;
-    position: relative;
-    font-weight: 600;
    }
 
  h1{
@@ -383,8 +328,12 @@ footer p{
       display: none;
     }
     .head {
+      display: flex;
       justify-content: space-between;
-      padding: 10px 15px;
+      padding: 5px;
+      padding-left: 22px;
+      padding-right: 18px;
+      width: 320px;
     }
     .menu {
       display: block;
@@ -392,76 +341,105 @@ footer p{
       color: white;
     }
     .section2 {
-      padding: 30px 15px;
-    }
-    h1 {
-      font-size: 28px;
-      line-height: 1.2;
-    }
-    .para {
-      font-size: 14px;
-    }
-    .input {
-      flex-direction: column;
+      display: flex;
+      padding: 15px 10px;
       width: 100%;
-    }
-    .input input {
-      width: 100%;
-    }
-    .input button {
-      width: 100%;
-    }
-    .credit {
+      justify-content: center;
+      align-items: center;
       flex-direction: column;
-      gap: 5px;
-      text-align: center;
+      margin-top: 1px;
     }
-    .section3 {
-      padding: 20px;
-    }
-    .logo {
-      flex-direction: column;
-      gap: 15px;
-    }
-    .logo img {
-      width: 80px;
-    }
-    .section3 h4 {
-      font-size: 20px;
-      text-align: center;
-    }
-    .section4 {
-      flex-direction: column;
-      gap: 20px;
-    }
-    .card {
-      width: 100%;
-    
-    .values {
-      flex-direction: column;
-      gap: 15px;
-    }
-    .values button {
-      width: 100%;
-    }
-    .why{
+   
+    .button {
+      margin: 5px;
       height: auto;
-      padding: 20px;
+      background: transparent;
+      padding-top: 55px;
+      border: none;
+      cursor: pointer;
+      color: white;
     }
-    .why p {
-      font-size: 16px;
-      text-align: center;
-    }
-    .down {
-      padding: 20px;
-    }
-    .down .input {
+   
+     .button:hover {
+      cursor: crosshair;
+     }
+     h1{
+      font-size: 25px;
+      margin-top: 10px;
+     }
+     .para{
+      font-size: 12px;
+      margin-top: 10px;
+     }
+     .input{
+      padding-top: 50px;
+      display: flex;
       flex-direction: column;
-      width: 100%;
-    }
-    footer{
+     }
+     .input input{
+      width: 300px;
+     }
+     .tick{
+      width: 12px;
+      margin-right: -7px;
+     }
+     .credit p{
+      font-size: 11px;
+     }
+    .section3 h5{
+      font-size: 20px;
+      margin-top: 15px;
+     }
+     .logo img{
+      width: 100px;
+     }
+     .logo{
+      display: flex;
       flex-direction: column;
-      gap: 10px;
+     }
+     .section3 h4{
+      font-size: 25px;
+      margin-top: 20px;
       text-align: center;
+     }
+     .section3 h6{
+      font-size: 15px;
+      margin-top: 10px;
+     }
+     .section4{
+      display: flex;
+      flex-direction: column;
+     }
+     .section5 h2{
+      font-size: 30px;
+      padding: 10px;
+     }
+     .section5 p{
+      font-size: 18px;
+      padding: 10px;
+      color: #2ecc71;
+     }
+     .values{
+      display: flex;
+      flex-direction: column;
+     }
+     .why{
+      height: 10vh;
+      background-color: #0a192f;
+     }
+     .why p{
+      font-size: 15px;
+     }
+     .section5 h4{
+      text-align: center;
+     }
+     .down{
+      text-align: center;
+     }
+     footer img{
+      width: 80px;
+     }
+     footer p{
+      font-size: 10px;
+     }
     }
-}}
