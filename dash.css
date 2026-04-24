@@ -19,7 +19,7 @@
 }
 .head2{
     background-color: #2ecc71;
-    width: 1000px;
+    width: 83%;
     display: flex;
     justify-content: end;
     gap: 10px;
@@ -40,6 +40,7 @@ header{
     display: flex;
     flex-direction: row;
     align-content: center;
+    width: 100%;
 }
 .side{
     background-color: #0a192f;
@@ -127,4 +128,9 @@ nav a{
 }
 .para{
     margin-top: 20px;
+}
+
+
+@media (max-width: 320px) {
+    
 }
